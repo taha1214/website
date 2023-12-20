@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+li{
+    margin-left: 30px;
+}
+
+.pic{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(./pics/la.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.white{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.los{
+    position: absolute;
+    top: 500px;
+    color: #fff;
+    text-align: center;
+    left: 36%;
+}
+.parent{
+    position: relative;
+    width: 100%;
+    top: 50px;
+
+}
+.child{
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+}
+.i{
+    font-style: italic;
+}
+.t{
+    text-align: left;
+}
+.container{
+    position: relative;
+    width: 100%;
+    top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.same1{
+    height: 200px;
+    width: 200px;    
+
+}
+.tour{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    color: #fff;
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.date{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+
+}
+.w{
+    position: absolute;
+    top: 275px;
+    width: 50%;
+    color: #000;
+    background-color: #fff;
+
+}
+.orange{
+    background-color: orangered;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    top: 500px;
+}
+.o{
+    width: 200px;
+    height: 200px;
+}
+.q{
+    background-color: #fff;
+    color: #000;
+    width: 200px;
+    text-align: center;
+}
+.fan{
+    position: relative;
+    width: 100%;
+    top: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.note{
+    text-align: center;
+
+}
+.z{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 200px;
+    top: 100px;
+    justify-content: space-between;
+    height: 300px;
+}
+.n{
+    height: 40px;
+}
+.v{
+    height: 40px;
+    width: 370px;
+}
+.b{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    width: 70px;
+    margin-left: 300px;
+}
+.buy{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 30px;
+}.back{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(./pics/map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 900px;
+
+}
+.end{
+    position: relative;
+    top: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+.icon{
+    position: absolute;
+    font-size: x-large;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .t{
+        font-size: smaller;
+    }
+    .los{
+    position: absolute;
+    top: 500px;
+    color: #fff;
+    text-align: center;
+    left: 15%;
+}}
+
+@media screen and (max-width: 660px){
+    .tour{
+        position: relative;
+        width: 100%;
+        height: 1400px;
+        background-color: black;
+        color: #fff;
+        top: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .t{
+        font-size: x-small;
+    }}
+    @media screen and (max-width: 420px){
+        .tour{
+            position: relative;
+            width: 100%;
+            height: 1850px;
+            background-color: black;
+            color: #fff;
+            top: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .t{
+            font-size: x-small;
+        }}
